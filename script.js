@@ -1,3 +1,13 @@
+window.onload = function(){
+    canvas.width = window.innerWidth*0.75
+    canvas.height = window.innerHeight*0.75
+}
+
+window.onresize = function(){
+    canvas.width = window.innerWidth*0.75
+    canvas.height = window.innerHeight*0.75
+}
+
 const playBoard = document.querySelector(".play-board");
 const scoreElement = document.querySelector(".score");
 const highScoreElement = document.querySelector(".high-score");
